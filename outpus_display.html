@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Output_display</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav>
+      <a href="./index.html">
+        <img
+          width="100px"
+          height="50px"
+          src="https://ephoto360.com/uploads/worigin/2020/10/14/taologoblackpink_2c30b.jpg"
+          alt=""
+        />
+      </a>
+      <a href="./outpus_display.html">Output Display</a>
+      <a href="./embed_js.html">Embed javascript file</a>
+      <a href="./Variable_declaring.html">Variable declaring</a>
+      <a href="./Using_Operator.html">Using Operator</a>
+      <a href="./Variable_Datatype_and_Operator.html"
+        >Variable Datatype and Operator</a
+      >
+      <a href="./Javascript_Basic.html">Javascript Basic</a>
+    </nav>
+    <!-- NAV BAR -->
+    <!--  -->
+    <!--  -->
+    <!-- Button 1  -->
+    <!-- hàm alert -->
+    <button type="button" onclick="showPopup();">Button 1</button>
+    <script>
+      function showPopup() {
+        alert("Bạn vừa bấm nút 1!");
+      }
+    </script>
+
+    <!-- Button 2 -->
+    <!-- Hàm document.getElementById -->
+    <div id="messageDiv"></div>
+    <button type="button" onclick="showMessage();">Button 2</button>
+    <script>
+      function showMessage() {
+        document.getElementById("messageDiv").innerHTML = "bạn vừa bấm nút 2!";
+      }
+    </script>
+
+    <!-- Button 3 -->
+    <!-- hàm document.write -->
+    <button type="button" onclick="showWriting();">Button 3</button>
+    <script>
+      function showWriting() {
+        document.write("Bạn bấm nút số 3!");
+      }
+    </script>
+    <!-- Button 4 -->
+    <!-- Hiển thị console.log() -->
+    <button type="button" onclick="showConsole();">Button 4</button>
+    <script>
+      function showConsole() {
+        console.log("Bạn vừa bấm nút 4");
+      }
+    </script>
+
+    <!--  -->
+  </body>
+</html>
